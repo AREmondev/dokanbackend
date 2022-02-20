@@ -8,9 +8,6 @@ module.exports = ({ env }) => ({
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME'),
-
-
-        
       },
       options: {
         ssl: true,
